@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --color-paper: #f3f6f1;
+  --color-ink: #17261f;
+  --color-leaf: #1f4d3a;
+  --color-saffron: #e8a317;
+}
+
+body { @apply bg-paper text-ink antialiased; }
+:focus-visible { outline: 2px solid var(--color-leaf); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
