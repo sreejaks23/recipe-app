@@ -13,5 +13,5 @@ export default function HeartButton({ active, onClick, className = "" }: Props) 
         <path d="M12 21s-7.5-4.6-9.5-9.3C1.1 8.4 3 5 6.4 5c2 0 3.6 1.1 4.6 2.6h2C14 6.1 15.6 5 17.6 5 21 5 22.9 8.4 21.5 11.7 19.5 16.4 12 21 12 21z" />
       </svg>
     </button>
-  );
+  ); 
 }

@@ -56,7 +56,7 @@ export default function App() {
               className={`rounded-full px-5 py-2.5 font-semibold transition ${!showFavs ? "bg-saffron text-ink" : "bg-white/15 hover:bg-white/25"}`}
             >
               Home
-            </button>
+            </button> 
             <button
               onClick={() => setShowFavs(true)}
               aria-current={showFavs ? "page" : undefined}
